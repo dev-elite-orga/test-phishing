@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simulation de sécurité — EliteOrga</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <style>
+    :root{
+      --bg:#f7f8fa;--card:#ffffff;--accent:#2b6cb0;--muted:#6b7280;--danger:#b91c1c;--radius:12px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%;margin:0;background:var(--bg);color:#111}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:40px 20px}
+    .card{background:var(--card);max-width:760px;width:100%;border-radius:var(--radius);box-shadow:0 8px 30px rgba(15,23,42,0.08);padding:28px}
+    h1{margin:0 0 8px;font-size:20px}
+    p{margin:0 0 12px}
+    .lead{color:var(--muted)}
+    h2{font-size:16px;margin:18px 0 8px}
+    ul{margin:0 0 12px 1.1rem;padding:0}
+    li{margin:6px 0}
+    .phish{display:inline-block;background:#fff3f2;border:1px solid rgba(185,28,28,0.18);color:var(--danger);padding:6px 10px;border-radius:8px;font-family:monospace}
+    .btn{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600;background:var(--accent);color:#fff}
+    .foot{margin-top:14px;font-size:13px;color:var(--muted)}
+    @media (max-width:520px){.card{padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card" role="main" aria-labelledby="title">
+      <h1 id="title">Simulation de sécurité</h1>
+      <p class="lead"><strong>Ceci était une simulation menée par l’équipe IT d’EliteOrga.</strong> Aucune donnée sensible n’a été conservée dans le cadre de ce test.</p>
+
+      <h2>Pourquoi ce mail était suspect</h2>
+      <ul>
+        <li>L’expéditeur réel était : <span class="phish">Microsoft &lt;support@microsoft.portail-connexion.co&gt;</span> — l’adresse n’est pas légitime.</li>
+        <li>L’alerte évoquait une connexion depuis <strong>Paris</strong> : vérifiez toujours si vous étiez réellement à cet endroit.</li>
+        <li>Microsoft <strong>ne vous demande pas</strong> de « sécuriser » votre compte via un lien reçu dans un email sans autre vérification.</li>
+      </ul>
+
+      <h2>Ce que vous auriez dû faire</h2>
+      <ul>
+        <li>Vérifier l’adresse complète de l’expéditeur.</li>
+        <li>Ne pas saisir d’identifiants sur un site dont vous doutez de la légitimité.</li>
+        <li>Signaler immédiatement l’alerte au service IT : <a href="mailto:s.buard@eliteorga.fr">s.buard@eliteorga.fr</a>.</li>
+      </ul>
+
+      <p class="foot"><strong>Note importante :</strong> dans une situation réelle où vous pensez que vos identifiants ont été compromis, l’action passe par l’équipe IT d’EliteOrga (contact : <a href="mailto:s.buard@eliteorga.fr">s.buard@eliteorga.fr</a>).</p>
+
+      <h2>Pour progresser</h2>
+      <p>Vous avez accès aux modules de formation en cybersécurité fournis par <strong>Kamaé</strong>. Nous recommandons d’y participer régulièrement et de réaliser chaque challenge mensuel.</p>
+      <!-- Remplacez l'URL ci-dessous par l'URL réelle de votre plateforme Kamaé -->
+      <p><a class="btn" href="https://app.kamae.io/elearning/" target="_blank" rel="noopener noreferrer">Accéder aux formations Kamaé</a></p>
+    </main>
+  </div>
+</body>
+</html>
